@@ -1,0 +1,95 @@
+[
+    {
+        "type" : "mutation",
+        "id" : "BLACKHAIR",
+        "name" : "Hair, Black",
+        "points" : 0,
+        "description" : "You have black hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "REDHAIR",
+        "name" : "Hair, Red",
+        "points" : 0,
+        "description" : "You have red hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLACKHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "BROWNHAIR",
+        "name" : "Hair, Brown",
+        "points" : 0,
+        "description" : "You have brown hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLACKHAIR", "REDHAIR", "WHITEHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "WHITEHAIR",
+        "name" : "Hair, White",
+        "points" : 0,
+        "description" : "You have white hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLACKHAIR", "REDHAIR", "BROWNHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "GRAYHAIR",
+        "name" : "Hair, Gray",
+        "points" : 0,
+        "description" : "You have gray hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLACKHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR"]
+    },
+    
+    {
+        "type" : "mutation",
+        "id" : "PALESKIN",
+        "name" : "Skin, Pale",
+        "points" : 0,
+        "description" : "You have pale skin.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["LIGHTSKIN", "TANSKIN", "DARKSKIN"]
+    },{
+        "type" : "mutation",
+        "id" : "LIGHTSKIN",
+        "name" : "Skin, Light",
+        "points" : 0,
+        "description" : "You have light skin.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["PALESKIN", "TANSKIN", "DARKSKIN"]
+    },{
+        "type" : "mutation",
+        "id" : "TANSKIN",
+        "name" : "Skin, Tan",
+        "points" : 0,
+        "description" : "You have tan skin.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["PALESKIN", "LIGHTSKIN", "DARKSKIN"]
+    },{
+        "type" : "mutation",
+        "id" : "DARKSKIN",
+        "name" : "Skin, Dark",
+        "points" : 0,
+        "description" : "You have dark skin.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["PALESKIN", "LIGHTSKIN", "TANSKIN"]
+    }
+]
