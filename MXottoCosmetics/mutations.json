@@ -8,7 +8,17 @@
         "starting_trait" : true,
         "profession": true,
         "purifiable": false,
-        "cancels" : ["REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+        "cancels" : ["BLONDHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR", "BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG"]
+    },{
+        "type" : "mutation",
+        "id" : "BLONDHAIR",
+        "name" : "Hair, Blond",
+        "points" : 0,
+        "description" : "You have blond hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLACKHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR", "BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG"]
     },{
         "type" : "mutation",
         "id" : "REDHAIR",
@@ -18,7 +28,7 @@
         "starting_trait" : true,
         "profession": true,
         "purifiable": false,
-        "cancels" : ["BLACKHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+        "cancels" : ["BLONDHAIR", "BLACKHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR", "BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG"]
     },{
         "type" : "mutation",
         "id" : "BROWNHAIR",
@@ -28,7 +38,7 @@
         "starting_trait" : true,
         "profession": true,
         "purifiable": false,
-        "cancels" : ["BLACKHAIR", "REDHAIR", "WHITEHAIR", "GRAYHAIR"]
+        "cancels" : ["BLONDHAIR", "BLACKHAIR", "REDHAIR", "WHITEHAIR", "GRAYHAIR", "BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG"]
     },{
         "type" : "mutation",
         "id" : "WHITEHAIR",
@@ -38,7 +48,7 @@
         "starting_trait" : true,
         "profession": true,
         "purifiable": false,
-        "cancels" : ["BLACKHAIR", "REDHAIR", "BROWNHAIR", "GRAYHAIR"]
+        "cancels" : ["BLONDHAIR", "BLACKHAIR", "REDHAIR", "BROWNHAIR", "GRAYHAIR", "BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG"]
     },{
         "type" : "mutation",
         "id" : "GRAYHAIR",
@@ -48,7 +58,69 @@
         "starting_trait" : true,
         "profession": true,
         "purifiable": false,
-        "cancels" : ["BLACKHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR"]
+        "cancels" : ["BLONDHAIR", "BLACKHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG"]
+    },
+    
+    {
+        "type" : "mutation",
+        "id" : "BLACKHAIRLONG",
+        "name" : "Hair, Long Black",
+        "points" : 0,
+        "description" : "You have black hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLONDHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG", "BLACKHAIR", "BLONDHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "BLONDHAIRLONG",
+        "name" : "Hair, Long Blond",
+        "points" : 0,
+        "description" : "You have blond hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG", "BLACKHAIR", "BLONDHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "REDHAIRLONG",
+        "name" : "Hair, Long Red",
+        "points" : 0,
+        "description" : "You have red hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLONDHAIRLONG", "BLACKHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG", "BLACKHAIR", "BLONDHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "BROWNHAIRLONG",
+        "name" : "Hair, Long Brown",
+        "points" : 0,
+        "description" : "You have brown hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLONDHAIRLONG", "BLACKHAIRLONG", "REDHAIRLONG", "WHITEHAIRLONG", "GRAYHAIRLONG", "BLACKHAIR", "BLONDHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "WHITEHAIRLONG",
+        "name" : "Hair, Long White",
+        "points" : 0,
+        "description" : "You have white hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLONDHAIRLONG", "BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "GRAYHAIRLONG", "BLACKHAIR", "BLONDHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
+    },{
+        "type" : "mutation",
+        "id" : "GRAYHAIRLONG",
+        "name" : "Hair, Long Gray",
+        "points" : 0,
+        "description" : "You have gray hair.",
+        "starting_trait" : true,
+        "profession": true,
+        "purifiable": false,
+        "cancels" : ["BLONDHAIRLONG", "BLACKHAIRLONG", "REDHAIRLONG", "BROWNHAIRLONG", "WHITEHAIRLONG", "BLACKHAIR", "BLONDHAIR", "REDHAIR", "BROWNHAIR", "WHITEHAIR", "GRAYHAIR"]
     },
     
     {

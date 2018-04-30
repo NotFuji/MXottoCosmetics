@@ -40388,96 +40388,168 @@
           "fg": 5267,
           "rotates": false
         },
+        
         {
-          "id": "overlay_female_mutation_REDHAIR",
-          "fg": 5250,
-          "rotates": false
-        },
-		{
           "id": "overlay_female_mutation_BLACKHAIR",
           "fg": 5248,
           "rotates": false
         },
         {
-          "id": "overlay_female_mutation_BROWNHAIR",
+          "id": "overlay_female_mutation_BLONDHAIR",
           "fg": 5249,
           "rotates": false
         },
         {
-          "id": "overlay_female_mutation_WHITEHAIR",
-          "fg": 5252,
+          "id": "overlay_female_mutation_BROWNHAIR",
+          "fg": 5250,
           "rotates": false
         },
         {
-          "id": "overlay_female_mutation_GRAYHAIR",
+          "id": "overlay_female_mutation_REDHAIR",
           "fg": 5251,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_REDHAIR",
-          "fg": 5255,
+          "id": "overlay_female_mutation_GRAYHAIR",
+          "fg": 5252,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_BLACKHAIR",
+          "id": "overlay_female_mutation_WHITEHAIR",
           "fg": 5253,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_BROWNHAIR",
+          "id": "overlay_male_mutation_BLACKHAIR",
           "fg": 5254,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_WHITEHAIR",
+          "id": "overlay_male_mutation_BLONDHAIR",
+          "fg": 5255,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_REDHAIR",
+          "fg": 5256,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_BROWNHAIR",
           "fg": 5257,
           "rotates": false
         },
         {
           "id": "overlay_male_mutation_GRAYHAIR",
-          "fg": 5256,
+          "fg": 5258,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_WHITEHAIR",
+          "fg": 5259,
           "rotates": false
         },
         
         {
-          "id": "overlay_female_mutation_PALESKIN",
+          "id": "overlay_female_mutation_BLACKHAIRLONG",
+          "fg": 5260,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_BLONDHAIRLONG",
+          "fg": 5261,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_BROWNHAIRLONG",
+          "fg": 5262,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_REDHAIRLONG",
+          "fg": 5263,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_GRAYHAIRLONG",
+          "fg": 5264,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_WHITEHAIRLONG",
+          "fg": 5265,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_BLACKHAIRLONG",
+          "fg": 5266,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_BLONDHAIRLONG",
+          "fg": 5267,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_BROWNHAIRLONG",
           "fg": 5268,
           "rotates": false
         },
         {
-          "id": "overlay_female_mutation_LIGHTSKIN",
+          "id": "overlay_male_mutation_REDHAIRLONG",
           "fg": 5269,
           "rotates": false
         },
         {
-          "id": "overlay_female_mutation_TANSKIN",
+          "id": "overlay_male_mutation_GRAYHAIRLONG",
           "fg": 5270,
           "rotates": false
         },
         {
-          "id": "overlay_female_mutation_DARKSKIN",
+          "id": "overlay_male_mutation_WHITEHAIRLONG",
           "fg": 5271,
           "rotates": false
         },
         
         {
-          "id": "overlay_male_mutation_PALESKIN",
+          "id": "overlay_female_mutation_PALESKIN",
           "fg": 5272,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_LIGHTSKIN",
+          "id": "overlay_female_mutation_LIGHTSKIN",
           "fg": 5273,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_TANSKIN",
+          "id": "overlay_female_mutation_TANSKIN",
           "fg": 5274,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_DARKSKIN",
+          "id": "overlay_female_mutation_DARKSKIN",
           "fg": 5275,
+          "rotates": false
+        },
+        
+        {
+          "id": "overlay_male_mutation_PALESKIN",
+          "fg": 5276,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_LIGHTSKIN",
+          "fg": 5277,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_TANSKIN",
+          "fg": 5278,
+          "rotates": false
+        },
+        {
+          "id": "overlay_male_mutation_DARKSKIN",
+          "fg": 5279,
           "rotates": false
         }
     ]
